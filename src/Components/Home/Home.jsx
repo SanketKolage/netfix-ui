@@ -5,7 +5,7 @@ import { BiPlay } from "react-icons/bi";
 import { AiOutlinePlus } from "react-icons/ai";
 
 const apiKey = process.env.REACT_APP_OMDB_API_KEY;
-const url = "http://www.omdbapi.com/";
+const url = "https://www.omdbapi.com/";
 const placeholderImg = "https://via.placeholder.com/300x450?text=No+Image";
 
 const Card = ({ img }) => <img className="card" src={img || placeholderImg} alt="cover" />;
